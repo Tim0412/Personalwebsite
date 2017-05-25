@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--導覽列開始-->
+    <nav id= "top" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- 導覽列 RWD選單圖示與品牌連結 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">觸發縮放</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" href="#">YOU ZI YI</a>
+            </div>
+
+            <!-- 導覽列選項 與導覽列中的表單元素 -->
+            <!-- 小螢幕時要被收起的元素 放置於 navbar-collapse -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- 導覽列中的導覽清單 -->
+                <!-- 拉到右邊的導覽列清單 -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#userSection">ABOUT</a></li>
+                    <li><a href="#worksSection">WORKS</a></li>
+                    <li><a href="#cantactSection">CANTACT US</a></li>
+                    <li><a href="#mapSection">map</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--導覽列結束-->
+    <!--  note header-->
+    <header id="header" class="jumbotron">
+        <!--全版面大型看板開始-->
+        <div class="jumbotron-content">
+            <h1>Hello</h1>
+            <p>I'M YOU ZI YI</p>
+            <a class="btn btn-success btn-lg" href="#userSection" role="button">Learn&nbsp More</a>
+        </div>
+        <!--全版面大型看板結尾-->
+    </header>
+
+    <div class="container">
+        <section id="userSection">
+            <h1 class="section-title">About Me</h1>
+            <div class="second-title"></div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-2 col-xs-6 col-xs-offset-3">
+                    <img id="user-photo" class=" img-responsive img-circle" src="imgs/user-yi.JPG" alt="">
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <h3 class="name">YOU ZI YI</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quod omnis itaque id natus consequatur, ex laborum similique nam debitis.</p>
+                </div>
+            </div>
+        </section>
+        <section id="worksSection">
+            <h1 class="section-title">WORKS</h1>
+            <div class="second-title"></div>
+            <div class="row">
+                <div class="col-md-4 work" id="work-1">
+                    <a href=""><img src="imgs/portfolio-1.jpg" alt=""></a>
+                    <h3>專案1</h3>
+                    <p>規劃中....</p>
+                </div>
+                <div class="col-md-4  work" id="work-1">
+                    <a href=""><img src="imgs/portfolio-2.jpg" alt=""></a>
+                    <h3>專案2</h3>
+                    <p>規劃中....</p>
+                </div>
+                <div class="col-md-4 work" id="work-1">
+                    <a href=""><img src="imgs/portfolio-3.jpg" alt=""></a>
+                    <h3>專案3</h3>
+                    <p>規劃中....</p>
+                </div>
+            </div>
+        </section>
+        <section id="cantactSection">
+            <h1 class="section-title">Cantact Us</h1>
+            <div class="second-title"></div>
+            <div class="container">
+                <div class="row">
+                    <form class="form-group col-md-4 col-md-offset-4 col-xs-12" action="">
+                        <label for="">Email</label>
+                        <input class="form-contrl" type="email" value="Email*">
+                        <label for="">Name</label>
+                        <input class="form-contrl" type="text" >
+                        <label for="">Message</label>
+                        <textarea class="form-contrl" name="message" id="" cols="30" rows="10"></textarea>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <section id="mapSection">
+            <h1 class="section-title">Map</h1>
+            <div class="second-title"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28921.830589812653!2d121.54384595000002!3d25.02630745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x496596e7748a5757!2z6Kqg5ZOB5pWm5Y2X5bqX!5e0!3m2!1szh-TW!2stw!4v1495612947068" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-content">
+           <a href="" name="email"><h4>tim0412@gmail.com</h4></a>
+               <div class="footer-link">
+                   <a href=""><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                </a>
+               </div>  
+        </div>
+        <div class="footer-bar">
+                    <p class="copy-right">&copy; 2017 YOU ZI YI <p>
+        </div>
+    </footer>
+    <a id="scrollTopBtn"href="#header"><i class="fa fa-arrow-circle-o-up fa-3x" aria-hidden="true"></i> 
+</a>
+</body>
+
+</html>
